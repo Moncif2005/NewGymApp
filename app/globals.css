@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --red: #E73539;
+  --Dark-red: #8b1517;
+  --soft-grey: #E8E7E8;
+  --grey: #444343;
+  --black:#000;
+  --white:#fff;
+}
+*{
+  font-family: 'Saira Condensed', sans-serif;
+}
+body{
+  font-family: "Saira Condensed";
+  text-transform: uppercase;
+  scroll-behavior: smooth;
+  background-color: var(--soft-grey);
+  
+}
+.custom-img{
+  background-color: green;
+  text-transform: uppercase;
+  background: url(./Images/Rectangle1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
